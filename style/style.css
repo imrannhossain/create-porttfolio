@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.r-colour{
+    color: rgb(253, 110, 10);
+}
+/* shared section bg */
+.section-bg{
+   background: rgb(255, 248, 243);
+   padding-top: 5px;
+}
+.header{
+   max-width:1600px;  
+    height: 0 auto;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top 30px left 80px,bottom 5px right ;
+   
+   /* padding: 60px 5px 0px 0px; */
+   
+}
+/* shared button */
+.btn-main{
+ width: 150px;
+height: 50px;
+border-radius: 5px;
+background: rgb(253, 110, 10);
+border: none;
+cursor: pointer;
+ color: rgb(255, 255, 255);
+margin-right: 10px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   margin: 30px auto;
+   margin-right: 200px;
+
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+ nav ul li{
+    list-style: none;
+    margin-right: 30px;
+     
+ }
+nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+font-weight: 700;
+
+}
+ .nav-title{
+   font-family: Open Sans;
+font-size: 30px;
+font-weight: 800;
+margin-left: 300px;
+
+ }
+.dark{
+color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 15px;
+}
+
+.btn-icon {
+  width: 15px;
+  height: 15px;
+  padding-right: 10px;
+
+
+}
+.btn-bg{
+  background: transparent;
+  box-sizing: border-box;
+border: 1px solid rgb(253, 110, 10);
+border-radius: 5px;
+color: rgb(253, 110, 10);
+font-size: 15px;
+font-weight: 700;
+line-height: 20px;
+
+}
+.btn-img{
+ 
+   background: transparent;
+   
+}
+.image-position{
+   width: 580px;
+   height: auto;
+}
+.banner{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  margin: 0px 50px 0 300px;
+  
+
+}
+.banner .banner-content h1{
+  color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 600;
+line-height: 35px;
+padding-bottom: 5px;
+
+}
+.banner .banner-content h3{
+  color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 60px;
+font-weight: 700;
+line-height: 100px;
+padding-bottom: 5px;
+
+}
+.banner .banner-content p{
+  color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+padding-bottom: 15px;
+
+}
