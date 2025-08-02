@@ -455,8 +455,10 @@ margin-bottom: 20px;
   .resume-container,
   .footer-container {
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     margin: 0 10px;
+    justify-content: center;
+    align-items: center;
   }
 
   .about {
@@ -487,9 +489,8 @@ margin-bottom: 20px;
   }
 
   nav {
-    margin: 10px 40px;
-    flex-direction: column;
-    align-items: flex-start;
+     margin: 10px 40px;
+  
   }
 
   .nav-title {
@@ -510,12 +511,18 @@ margin-bottom: 20px;
   }
 
   .about-items,
-  .skills,
   .resume-container,
   .footer-container {
     flex-direction: column;
     gap: 30px;
     padding: 0 30px;
+    
+  }
+  .skills{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .about {
